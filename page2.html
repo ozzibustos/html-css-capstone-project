@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Html/CSS Capstone</title>
+
+        <meta charset="UTF-8" />
+        <meta name ="viewport" content="width=device-width, intial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <img src="diruband.jpg" class="headerimage">
+            <ul class="navitem-container">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Page Two</a></li>
+                <li><a href="page3.html">Page Three</a></li>
+                <li><a href="page4.html">Page Four</a></li>
+            </ul>
+        </nav>
+
+        <div class>
+            <form action="Submit/url" method="post">
+                <fieldset class="formcontainer">
+                    <legend>The Dir En Gry Fan Club Form Submission</legend>
+
+                <div class="formcontainer-main">
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div>
+                        <label for="status">Status</label>
+                        <select id="status" name="user_status">
+                            <option value="Diamond">Devotee</option>
+                            <option value="Gold">Groupie</option>
+                            <option value="Silver">Follower</option>
+                            <option value="Bronze">Casual</option>
+                        </select>
+                    </div>
+                </div>
+
+                    <div>
+                        <form>
+                            <p>Who is your favorite Dir En Grey member?</p>
+                            <input type="radio" name="fav_member">Kyo<br>
+                            <input type="radio" name="fav_member">Toshiya<br>
+                            <input type="radio" name="fav_member">Shinya<br>
+                            <input type="radio" name="fav_member">Kaoru<br>
+                            <input type="radio" name="fav_member">Die<br>
+                        </form>
+                    </div>
+
+                    <div>
+                        <p>Why are you a fan of Dir En Grey?</p>
+                        <textarea type="text" maxlength="250" cols="50" rows="10"></textarea>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div>
+                        <label for="date" name="date>">Select Current Date</label>
+                        <input type="date">
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="formcontainer-checkbox">
+                        <div>
+                            <input type="checkbox" id="signup" name="signup" value="Signup">
+                            <label for="signup">Sign up for the Dir En Grey Newsletter</label><br>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="terms" name="terms" value="Terms">
+                            <label for="terms"> Agree to Terms and Conditions</label>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div>
+                        <button type="submit" class="formsubmit">Submit</button>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+
+    </body>
+
+
+</html>

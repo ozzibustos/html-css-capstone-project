@@ -1,3 +1,4 @@
+/* Page 1 CSS: */
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(201, 173, 167);
@@ -27,6 +28,7 @@ body {
     border: 5px solid rgb(34, 34, 59);
     margin-top: 2%;
     background-color: rgb(154, 140, 152);
+    color: rgb(242, 233, 228);;
 }
 
 .headerimage {
@@ -62,3 +64,73 @@ body {
     border: 5px solid rgb(34, 34, 59);
     margin-top: 2%;
   }
+
+/* Page 2 CSS: */
+
+legend {
+    background-color: rgb(154, 140, 152);
+    padding: 5px;
+    border: 5px solid rgb(34, 34, 59);
+    font-size: x-large;
+    margin-bottom: 5%;
+    color: rgb(242, 233, 228);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+fieldset {
+    border: 5px solid rgb(34, 34, 59);
+}
+
+.formcontainer {
+    text-align: center;
+}
+
+.formcontainer-main {
+    line-height: 1.8;
+}
+
+.formcontainer-checkbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0% 15%;
+}
+
+.formsubmit {
+    background: rgb(154, 140, 152);
+	color: rgb(242, 233, 228);
+	border-style: outset;
+	border-color: rgb(154, 140, 152);
+	height: 50px;
+	width: 100px;
+    box-shadow: 5px 5px 5px rgb(154, 140, 152);
+}
+
+/* Page 3 CSS: */
+
+.linkslistcontainer {
+    display: flex;
+    width: 100%;
+}
+
+.linkslist {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.listitems{
+    display: flex;
+    font-size: x-large;
+    border: 3px solid rgb(34, 34, 59);
+    padding: 20px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
