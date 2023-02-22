@@ -134,3 +134,20 @@ fieldset {
     margin-left: 200px;
     margin-right: 200px;
 }
+
+/* Page 4 CSS: */
+
+.imagescontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.image{
+    display: grid;
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border: 5px solid rgb(34, 34, 59);
+    border-radius: 10%;
+}
